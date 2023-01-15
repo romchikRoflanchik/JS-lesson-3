@@ -1,11 +1,11 @@
 //  Завдання 1
 
-let n1 = prompt();
-let result = 1;
-for(let  i=1; i<=n1; i++){
-    result *= i;
-    console.log(result);
-}
+// let n1 = prompt();
+// let result = 1;
+// for(let  i=1; i<=n1; i++){
+//     result *= i;
+//     console.log(result);
+// }
 
 // Завдання 2
 
@@ -63,3 +63,21 @@ for(let  i=1; i<=n1; i++){
 //    result=1
 // }
 // console.log(result);
+
+
+
+let a = +prompt('Введіть число');
+let b = +prompt('Введіть степінь');
+let result = 1;
+for (let i = 1; i <= b || i <= -b; i++) {
+    result *= a;
+}
+if (b > 0) {
+    result = result
+} else if (b < 0) {
+    result = 1 / result
+} else {
+    result = 1
+}
+
+console.log(result);
