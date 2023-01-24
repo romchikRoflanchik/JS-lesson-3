@@ -16,9 +16,9 @@
 
 // Завдання 3
 
-// for(i=1; i<=55 ; i+=2){
-//     document.write(`<h2> ${i}</h2>`)
-// }
+for(i=1; i<=110 ; i+=2){
+    document.write(`<h2> ${i}</h2>`)
+}
 
 // Завдання 4
 
@@ -66,18 +66,18 @@
 
 
 
-let a = +prompt('Введіть число');
-let b = +prompt('Введіть степінь');
-let result = 1;
-for (let i = 1; i <= b || i <= -b; i++) {
-    result *= a;
-}
-if (b > 0) {
-    result = result
-} else if (b < 0) {
-    result = 1 / result
-} else {
-    result = 1
-}
+// let a = +prompt('Введіть число');
+// let b = +prompt('Введіть степінь');
+// let result = 1;
+// for (let i = 1; i <= b || i <= -b; i++) {
+//     result *= a;
+// }
+// if (b > 0) {
+//     result = result
+// } else if (b < 0) {
+//     result = 1 / result
+// } else {
+//     result = 1
+// }
 
-console.log(result);
+// console.log(result);
