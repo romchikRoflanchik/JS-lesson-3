@@ -15,9 +15,10 @@
 // }
 
 // Завдання 3
-
-for(i=1; i<=110 ; i+=2){
-    document.write(`<h2> ${i}</h2>`)
+let a = 1;
+for(i=1; i<=55 ; i++){
+    document.write(`<h2> ${a}</h2>`)
+    a +=2
 }
 
 // Завдання 4
